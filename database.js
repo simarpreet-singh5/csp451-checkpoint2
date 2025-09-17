@@ -62,3 +62,4 @@ export function listRoles(){ return Array.from(new Set(users.map(u=>u.role))); }
 // db doc line 58 - checkpoint2
 // db doc line 59 - checkpoint2
 // db doc line 60 - checkpoint2
+// Clarification: listRoles returns unique roles from users (demo only)
